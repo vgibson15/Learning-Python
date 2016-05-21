@@ -1,0 +1,8 @@
+def count_hi(str):
+  sum = 0
+  count = 1
+  if "hi" in str:
+    sum = sum + count
+    count = 1 + count
+  return count
+  
